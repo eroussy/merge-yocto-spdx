@@ -21,4 +21,4 @@ RUN set -x \
     && pip install "spdx-tools==0.8.0a2" \
     && rm -rf /var/lib/{apt,dpkg,cache,log}/*
 
-COPY aggregate_yocto_spdx.py /usr/bin/aggregate_yocto_spdx.py
+COPY merge_spdx.py /usr/bin/merge

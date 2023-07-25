@@ -1,6 +1,0 @@
-[project]
-org='eroussy'
-name='aggr_yocto_spdx'
-
-[build]
-command='./aggregate_yocto_spdx.py'

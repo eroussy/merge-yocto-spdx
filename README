@@ -1,0 +1,5 @@
+build with
+`docker build -t merge_yocto_spdx:latest .`
+
+use with
+`docker run merge_spdx merge -h`
