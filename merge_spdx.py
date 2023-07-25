@@ -60,9 +60,5 @@ for f in spdx_files:
 
 print("LOG : parse json files OK")
 
-validation_messages = validate_full_spdx_document(main_doc)
-for validation_message in validation_messages:
-    print("WARNING : {}".format(validation_message.validation_message))
-
 # write file anyway
 write_file(main_doc, args.output, validate=False)
