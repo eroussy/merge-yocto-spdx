@@ -1,0 +1,6 @@
+[project]
+org='eroussy'
+name='aggr_yocto_spdx'
+
+[build]
+command=''
